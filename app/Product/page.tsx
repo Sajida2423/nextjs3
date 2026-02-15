@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from './Productcard/page';
-import { Productservice } from '../Service/product-service';
+import { Productservice } from '@/services/product-service';
 export default async function Product() {
 
 const products= await Productservice.getallproducts()

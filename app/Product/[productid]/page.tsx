@@ -1,4 +1,4 @@
-import { Productservice } from '../../Service/product-service'
+import { Productservice } from "@/services/product-service"
 
 export default async function Detailpage(props:any) {
     // console.log(props)

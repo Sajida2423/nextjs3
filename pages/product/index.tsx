@@ -1,5 +1,5 @@
 import ProductCard from "../ProductCard";
-import { Productservice } from '../services/product-service';
+import { Productservice } from "@/services/product-service";
 
 export default function Product({ products }: any) {
   return (
